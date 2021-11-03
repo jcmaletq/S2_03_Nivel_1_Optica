@@ -1,0 +1,9 @@
+OPTICA_CUL_D_AMPOLLA.EMPLEADO_GAFAS"
+
+
+[{$lookup: {
+  from: 'gafas',
+  localField: 'id_emp',
+  foreignField: 'id_emp',
+  as: 'gafas'
+}}]

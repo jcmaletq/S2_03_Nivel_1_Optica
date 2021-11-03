@@ -1,0 +1,19 @@
+
+"OPTICA_CUL_D_AMPOLLA.PROVEEDOR_MARCA_MONTURA"
+
+[{$lookup: {
+  from: 'proveedores',
+  localField: 'id_prov',
+  foreignField: 'id_prov',
+  as: 'proveedor'
+}}, {$lookup: {
+  from: 'marca',
+  localField: 'id_bran',
+  foreignField: 'id_bran',
+  as: 'marca'
+}}, {$lookup: {
+  from: 'monturas',
+  localField: 'id_mont',
+  foreignField: 'id_mont',
+  as: 'montura'
+}}]

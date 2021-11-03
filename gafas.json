@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "6179603d107f6331ed732b4e"
+  },
+  "id_gaf": 1,
+  "lente_izq": {
+    "prescrip": "0,5 centrado",
+    "color_cristal": "opaco",
+    "precio_cristal": 20
+  },
+  "lente_der": {
+    "prescrip": "1,5 nocentrado",
+    "color_cristal": "opaco",
+    "precio_cristal": 21
+  },
+  "observaciones": "montada flexible",
+  "id_mont": 1,
+  "id_emp": 1
+},{
+  "_id": {
+    "$oid": "6179609c107f6331ed732b53"
+  },
+  "id_gaf": 2,
+  "lente_izq": {
+    "prescrip": "0,2 centrado",
+    "color_cristal": "claro",
+    "precio_cristal": 14
+  },
+  "lente_der": {
+    "prescrip": "0,5 nocentrado",
+    "color_cristal": "claro",
+    "precio_cristal": 15
+  },
+  "observaciones": "montada fija",
+  "id_mont": 2,
+  "id_emp": 2
+}]

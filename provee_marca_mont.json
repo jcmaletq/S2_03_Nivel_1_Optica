@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "61781c388f4ada5b21b4bc51"
+  },
+  "id_prov": 1,
+  "id_mont": 1,
+  "id_bran": 1
+},{
+  "_id": {
+    "$oid": "617a9a009a6229b6471c293c"
+  },
+  "id_prov": 1,
+  "id_bran": 2,
+  "id_mont": 2
+},{
+  "_id": {
+    "$oid": "617a9a629a6229b6471c2943"
+  },
+  "id_prov": 2,
+  "id_bran": 3,
+  "id_mont": 3
+}]

@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "617807f68f4ada5b21b4bc1f"
+  },
+  "id_clie": 1,
+  "name": "Manolito",
+  "surname": "Gafotas",
+  "phone_number": "111111111",
+  "e-mail": "manolito.gafotas@gmail.com",
+  "nif": "x1234566x",
+  "recommended_by": 0,
+  "created_at": {
+    "$date": "2021-10-19T22:00:00Z"
+  },
+  "address": [
+    {
+      "id_addr": 2
+    }
+  ],
+  "gafas_adq": [
+    {
+      "id_gaf": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "617a97789a6229b6471c2924"
+  },
+  "id_clie": 2,
+  "name": "Maria",
+  "surname": "Lara",
+  "phone_number": "888888888",
+  "e-mail": "maria.lara@gmail.com",
+  "nif": "a01234567a",
+  "recommended_by": 1,
+  "created_at": {
+    "$date": "2021-11-19T23:00:00Z"
+  },
+  "address": [
+    {
+      "id_addr": 3
+    }
+  ],
+  "gafas_adq": [
+    {
+      "id_gaf": 2
+    }
+  ]
+}]

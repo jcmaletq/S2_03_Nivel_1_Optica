@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "6178097c8f4ada5b21b4bc22"
+  },
+  "id_prov": 1,
+  "name": "Distri Optic",
+  "phone_number": "2222222222",
+  "fax_number": "333333333",
+  "e-mail": "distri.optic@gmail.com",
+  "nif": "p1234567",
+  "address": [
+    {
+      "id_addr": 3
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "617a9ab69a6229b6471c2946"
+  },
+  "id_prov": 2,
+  "name": "Univ Optic",
+  "phone_number": "22222244444",
+  "fax_number": "333344444",
+  "e-mail": "univ.optic@gmail.com",
+  "nif": "p567890",
+  "address": [
+    {
+      "id_addr": 2
+    }
+  ]
+}]

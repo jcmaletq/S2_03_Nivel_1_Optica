@@ -1,0 +1,17 @@
+[{
+  "_id": {
+    "$oid": "61795e04107f6331ed732b3a"
+  },
+  "id_bran": 1,
+  "descripc": "sol casino",
+  "precio_proveedor": 120.11,
+  "observaciones": "montada flexible"
+},{
+  "_id": {
+    "$oid": "61795eb4107f6331ed732b3f"
+  },
+  "id_bran": 2,
+  "descripc": "luz de luna",
+  "precio_proveedor": 130.11,
+  "observaciones": "montada al aire"
+}]

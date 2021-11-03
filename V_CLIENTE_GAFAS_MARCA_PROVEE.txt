@@ -1,0 +1,30 @@
+
+OPTICA_CUL_D_AMPOLLA.CLIENTE_GAFAS_MARCA_PROVEE"
+
+
+[{$lookup: {
+  from: 'gafas',
+  localField: 'gafas_adq.id_gaf',
+  foreignField: 'id_gaf',
+  as: 'gafas_cliente'
+}}, {$lookup: {
+  from: 'monturas',
+  localField: 'gafas_cliente.id_mont',
+  foreignField: 'id_mont',
+  as: 'montura'
+}}, {$lookup: {
+  from: 'provee_marca_mont',
+  localField: 'gafas_cliente.id_mont',
+  foreignField: 'id_mont',
+  as: 'monturas_marca_proveedor'
+}}, {$lookup: {
+  from: 'marca',
+  localField: 'monturas_marca_proveedor.id_bran',
+  foreignField: 'id_bran',
+  as: 'marca'
+}}, {$lookup: {
+  from: 'proveedores',
+  localField: 'monturas_marca_proveedor.id_prov',
+  foreignField: 'id_prov',
+  as: 'proveedor'
+}}]

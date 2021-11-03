@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "617a92db9a6229b6471c290e"
+  },
+  "id_emp": 1,
+  "name": "Juan",
+  "surname": "Herrero",
+  "nif": "z456789z",
+  "created_at": {
+    "$date": "2021-10-19T22:00:00Z"
+  },
+  "estado": true,
+  "telefono": "93123456",
+  "email": "juan.herrero@gmail.com",
+  "address": [
+    {
+      "id_addr": 5
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "617a94279a6229b6471c2915"
+  },
+  "id_emp": 2,
+  "name": "Pep",
+  "surname": "Zapater",
+  "phone_number": "555555555",
+  "e-mail": "pep.zapatero@gmail.com",
+  "nif": "x456789x",
+  "created_at": {
+    "$date": "2020-10-19T22:00:00Z"
+  },
+  "estado": false,
+  "telefono": "93123789",
+  "email": "pep.zapater@gmail.com",
+  "address": [
+    {
+      "id_addr": 4
+    }
+  ]
+}]

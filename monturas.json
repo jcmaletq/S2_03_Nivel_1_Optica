@@ -1,0 +1,28 @@
+[{
+  "_id": {
+    "$oid": "61795f81107f6331ed732b44"
+  },
+  "montura_descripc": "tipoxxx",
+  "colour": "rojo",
+  "type": "flotante",
+  "precio_montura": 10,
+  "id_mont": 1
+},{
+  "_id": {
+    "$oid": "61795fbf107f6331ed732b49"
+  },
+  "montura_descripc": "tipoyyy",
+  "colour": "blanco",
+  "type": "pasta",
+  "precio_montura": 11,
+  "id_mont": 2
+},{
+  "_id": {
+    "$oid": "617a99709a6229b6471c2937"
+  },
+  "montura_descripc": "tipowwww",
+  "colour": "marron",
+  "type": "pasta",
+  "precio_montura": 11,
+  "id_mont": 3
+}]
